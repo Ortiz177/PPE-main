@@ -72,3 +72,108 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             </div>
         </div>
     </div>
+    <!--/login -->
+    <section class="banner-bottom py-5" id="contenedor-login">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-bottom">
+                    <form action="" id="formulario">
+                        <h2>INGRESAR</h2>
+                        <div class="field-group">
+
+                            <div class="content-input-field">
+                                <input name="correo" id="correo" type="email" value="" placeholder="Ingrese el correo"
+                                    required="">
+                            </div>
+                        </div>
+                        <div class="field-group">
+                            <div class="content-input-field">
+                                <input name="clave" id="clave" type="Password" placeholder="Ingresa la clave"
+                                    required="">
+                            </div>
+                        </div>
+                        <div class="content-input-field">
+                            <button type="submit" id="btn_enviar" class="btn-ingreso">Ingresar</button>
+                        </div>
+                        <a href="register.html" class="">¿No tiene una cuenta?</a>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /login -->
+
+    <!-- footer -->
+    <footer id="contacto">
+        <div class="container">
+            <div class="footer-top">
+                <div class="col-md-4 amet-sed amet-medium" id="contendor-contacto">
+                    <div class="footer-title">
+                        <h3>CONTACTO</h3>
+                    </div>
+                    <div class="contacto">
+                        <div>
+                            <p><a href="mailto:pablo.loaiza@upb.edu.co" target="_blank">Pablo Loaiza Mejía</a></p>
+                            <a href="https://wa.me/3006722101" target="_blank" style="padding: 5px;"><i
+                                    class="fa fa-whatsapp" style="color: white;"></i></a>
+                            <a href="mailto:pablo.loaiza@upb.edu.co" target="_blank" style="padding: 5px;"><i
+                                    class="fa fa-envelope" style="color: white;"></i></a>
+                        </div>
+                        <div>
+                            <p><a href="mailto:andres.saldarriagaa@upb.edu.co" target="_blank"> Andres Felipe
+                                    Saldarriaga Arias</a></p>
+                            <a href="https://wa.me/3106847478" target="_blank" style="padding: 5px;"><i
+                                    class="fa fa-whatsapp" style="color: white;"></i></a>
+                            <a href="mailto:andres.saldarriagaa@upb.edu.co" target="_blank" style="padding: 5px;"><i
+                                    class="fa fa-envelope" style="color: white;"></i></a>
+                        </div>
+                        <div>
+                            <p><a href="mailto:juanj.ortiz@upb.edu.co" target="_blank">Juan Jose Ortiz Patino</a></p>
+                            <a href="https://wa.me/3016197280" target="_blank" style="padding: 5px;"><i
+                                    class="fa fa-whatsapp" style="color: white;"></i></a>
+                            <a href="mailto:juanj.ortiz@upb.edu.co" target="_blank" style="padding: 5px;"><i
+                                    class="fa fa-envelope" style="color: white;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    <!-- copyright -->
+    <div class="copyright">
+        <div class="container">
+            <p class="footer-class">© 2020 Gaming Store . All Rights Reserved | Design by <a
+                    href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+        </div>
+    </div>
+    <!-- //copyright -->
+    <script src="js/jarallax.js"></script>
+    <!-- <script src="js/SmoothScroll.min.js"></script> -->
+    <script type="text/javascript">
+        /* init Jarallax */
+        $('.jarallax').jarallax({
+            speed: 0.5,
+            imgWidth: 1366,
+            imgHeight: 768
+        })
+    </script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+                };
+            */
+
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
